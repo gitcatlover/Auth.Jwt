@@ -1,0 +1,74 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>Blog.Core</name>
+    </assembly>
+    <members>
+        <member name="M:Blog.Core.AuthHelper.Appsettings.app(System.String[])">
+            <summary>
+            封装要操作的字符
+            </summary>
+            <param name="sections"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Blog.Core.AuthHelper.JwtHelper.IssueJwt(Blog.Core.AuthHelper.TokenModelJwt)">
+            <summary>
+            生成JWT字符串
+            </summary>
+        </member>
+        <member name="M:Blog.Core.AuthHelper.JwtHelper.SerializeJwt(System.String)">
+            <summary>
+            解析JWT字符串
+            </summary>
+            <param name="jwt"></param>
+            <returns></returns>
+        </member>
+        <member name="T:Blog.Core.AuthHelper.TokenModelJwt">
+            <summary>
+            令牌
+            </summary>
+        </member>
+        <member name="P:Blog.Core.AuthHelper.TokenModelJwt.Role">
+            <summary>
+            角色
+            </summary>
+        </member>
+        <member name="P:Blog.Core.AuthHelper.TokenModelJwt.Work">
+            <summary>
+            职能
+            </summary>
+        </member>
+        <member name="M:Blog.Core.Controllers.BlogController.Get">
+            <summary>
+            获取博客列表
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:Blog.Core.Controllers.BlogController.Get(System.Int32)">
+            <summary>
+            获取博客详情
+            </summary>
+            <param name="id"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Blog.Core.Controllers.BlogController.Post(Blog.Core.Model.Love)">
+            <summary>
+            发表博客
+            </summary>
+            <param name="love">Model类实体参数</param>
+        </member>
+        <member name="M:Blog.Core.Controllers.BlogController.Put(System.Int32,System.String)">
+            <summary>
+            修改博客
+            </summary>
+            <param name="id"></param>
+            <param name="value"></param>
+        </member>
+        <member name="M:Blog.Core.Controllers.BlogController.Delete(System.Int32)">
+            <summary>
+            删除博客
+            </summary>
+            <param name="id"></param>
+        </member>
+    </members>
+</doc>
